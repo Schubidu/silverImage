@@ -1,0 +1,8 @@
+﻿<UserControl x:Class="webcam.userControls.LastPicsControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="60" Background="#CC000000">
+    <Grid x:Name="LayoutRoot" Height="60" Background="#CC000000">
+		<StackPanel x:Name="LastPicsStack" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="4,4,4,4">
+		</StackPanel>
+	</Grid>
+</UserControl>

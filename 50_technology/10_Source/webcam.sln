@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Web Developer Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webcam.Web", "webcam.Web\webcam.Web.csproj", "{C1DCC008-FE70-449E-9E8A-2ADCF63F2F8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{879A27F5-13CC-48D4-BC1C-9E700B5CE9FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webcam", "webcam\webcam.csproj", "{40AB4363-D7D7-4D38-9A3A-20FA00BA575D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1DCC008-FE70-449E-9E8A-2ADCF63F2F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DCC008-FE70-449E-9E8A-2ADCF63F2F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DCC008-FE70-449E-9E8A-2ADCF63F2F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DCC008-FE70-449E-9E8A-2ADCF63F2F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879A27F5-13CC-48D4-BC1C-9E700B5CE9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879A27F5-13CC-48D4-BC1C-9E700B5CE9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879A27F5-13CC-48D4-BC1C-9E700B5CE9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879A27F5-13CC-48D4-BC1C-9E700B5CE9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40AB4363-D7D7-4D38-9A3A-20FA00BA575D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AB4363-D7D7-4D38-9A3A-20FA00BA575D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AB4363-D7D7-4D38-9A3A-20FA00BA575D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AB4363-D7D7-4D38-9A3A-20FA00BA575D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

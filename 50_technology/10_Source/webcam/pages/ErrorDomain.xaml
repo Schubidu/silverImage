@@ -1,0 +1,22 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="webcam.ErrorDomain"
+	d:DesignWidth="640" d:DesignHeight="480">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="#FF000000" Offset="0"/>
+				<GradientStop Color="#FF828282" Offset="1"/>
+			</LinearGradientBrush>
+		</Grid.Background>
+		<Grid Height="95" Margin="0,0,0,0" VerticalAlignment="Center" Width="200" HorizontalAlignment="Center">
+			<Rectangle RadiusX="18" RadiusY="18" Fill="#4C000000"/>
+			<TextBlock Margin="19,24,16,24" Foreground="#FFFF0000" TextWrapping="Wrap"><Run FontFamily="Lucida Sans Unicode" FontSize="16" Text="Error!"/><LineBreak/><Run FontFamily="Lucida Sans Unicode" FontSize="16" Text="Wrong Domainname!"/></TextBlock>
+		</Grid>
+	</Grid>
+</UserControl>
